@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: brown; */
+    height: 100vh;
+    justify-content: center;
+}
+.palindrome{
+    background-color:white;
+    border: 2px solid grey;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em;
+    transition: all 3s ease;
+
+}
+.palindrome:hover{
+    background-color:indianred;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.palindrome h3{
+    margin-bottom: 0.7em;
+    font-size: 3rem;
+    font-family: 'Ephesis', cursive;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+}
+.palindrome p{
+    font-size: 1rem;
+    margin-bottom: 1.5em;
+    color:green;
+    font-family: 'Ephesis', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+.check{
+    display: block;
+    margin: 0 auto;
+    padding: 0.4em 1.5em;
+    cursor: pointer;
+    background-color: grey;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+
+}
+.btn{
+padding: 1em 8em;
+margin-bottom: 2em;
+
+
+}
+.check:hover{
+    transform:translatey(2px);
+    transition:.6 ease ;
+}
+
+#message{
+    margin-bottom:1em;
+    font-size: 2rem;
+    font-weight: normal;
+  }
+  #error{
+      color: red;
+  }
+  .success{
+color: green;
+  }
+
+  .error{
+color: red;
+  }
